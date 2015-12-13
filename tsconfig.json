@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"jsx": "react",
+		"experimentalDecorators": true,
+		"sourceMap": true
+	},
+	"files": [
+		"index.tsx",
+		"components/todo.tsx",
+		"components/addTodo.tsx",
+		"components/todoItem.tsx",
+		"store/interfaces.ts",
+		"store/todoStore.ts",
+		"store/index.ts"
+	]
+}
