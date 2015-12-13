@@ -7,7 +7,7 @@ module.exports = {
 		'./index.tsx'
 	],
 	output: {
-		path: __dirname + '/../nodeServer/public/bundles',
+		path: __dirname + 'bundles',
 		filename: '[name].js'
 	},
 	// Turn on sourcemaps
