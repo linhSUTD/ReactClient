@@ -7,7 +7,7 @@ module.exports = {
 		'./index.tsx'
 	],
 	output: {
-		path: __dirname + 'bundles',
+		path: __dirname + '/bundles',
 		filename: '[name].js'
 	},
 	// Turn on sourcemaps
@@ -35,7 +35,7 @@ module.exports = {
 				loaders: ['ts-loader']
 			},
 			{
-				test: /\.(png|jpg)$/,
+				test: /\.(png|jpg|gif)$/,
 				loader: 'url'
 			},
 			{
